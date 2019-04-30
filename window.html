@@ -1,0 +1,18 @@
+<div id="windowcontainer">
+    <div class="window">
+        <div class="windowcontrolls"><div class="windowicon"><img src="img/wan.png"></div><a href="#" rel="modal:close"><img class="windowbuttons" src="img/buttons.png"></a></div>
+        <div class="windowcontentcontainer">
+            options
+            <div id="windowcontent">content</div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $( "#windowcontainer" ).resizable();
+
+    $( "#windowcontainer" ).draggable();
+    
+} );
+</script>
