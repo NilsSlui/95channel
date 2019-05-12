@@ -6,23 +6,34 @@
 
     </head>
     <body>
+        <!-- DESKTOP -->
+        <div id="desktopcontainer">
+            <div class="desktopitems">
+                <div class="desktopitem">
+                    <img class="desktopitem" src="willekeurig.png">
+                    Willekeurig
+                </div>
+            </div>
+        </div>
         <!-- START MENU -->
         <div id="startmenucontainer" draggable="true">
             <div id="startmenu">
-                <div id="startmenubanner"> Dejimachan <a class="whitet">3.1</a></div>
+                <div id="startmenubanner"> 95channel <a class="whitet">3.1</a></div>
                 <div class="startmenuitemcontainer">
                     <a onclick="toggleVisibility('window')">
-                        <div class="startmenuitemimage"><img class="startmenuimage" src="img/wan.png"></div>
-                        <div class="startmenuitemtext"><u>W</u>ang 2009</div>
-                        <div class="startmenuitemarrow">></div>
+                        <script>
+                            for(i = 0;i<5;i++){
+                                document.getElementById("startmenuitemcontainer").innerHTML = "Hello JavaScript";
+                            }
+                        </script>
                     </a>
                 </div>
             </div>
         </div>
          <!-- PROGRAM WINDOW -->
         <div id="window">
-                    <div id="windowheader">controlls<img class="controlsImage" src="img/buttons.png" onclick="toggleVisibility('window')"></div>
-                    tempwindow
+            <div id="windowheader"><span id="Wcontrols">foo</span></span><img class="controlsImage" src="img/buttons.png" onclick="toggleVisibility('window')"></div>
+            <span id="Wcontent">bar</span>
         </div>
         <!-- TASK BAR -->
         <div id="taskbarcontainer">
@@ -30,7 +41,7 @@
                 <!--START BUTTON -->
                 <div id="startbuttoncontainer">
                     <div onclick="toggleVisibility('startmenucontainer')" id="startbutton">
-                        <div class="taskbartext"><img src="img/start.png">  Start</div>
+                        <div class="taskbartext"><img src="gnome.png">  Start</div>
                     </div>
                 </div>
                 <!-- ACTIVITY WINDOW -->

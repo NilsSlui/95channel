@@ -1,7 +1,13 @@
 
 //  PROGRAM OBJECTS
-
 var debugconsole = {header: "Debug Console", content: "This is content"}; 
+var willekeurig = {header: "/b/ - Willekeurig", content: "placeholder"};
+
+function runProgram(program){
+    document.getElementById("Wcontrols").innerHTML = program.header;
+    document.getElementById("Wcontent").innerHTML = program.content;
+}
+runProgram(willekeurig);
 
 function toggleVisibility(id) {
     var x = document.getElementById(id);
@@ -11,6 +17,7 @@ function toggleVisibility(id) {
         x.style.display = "none";
     }
 }
+
 // Make the DIV element draggable:
 dragElement(document.getElementById("window"));
 

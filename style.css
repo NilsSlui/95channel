@@ -10,7 +10,17 @@ body
     margin: 0;
     padding: 0;
 }
-
+.desktopitems{
+    width: 100px;
+    height: 100px;
+}
+.desktopitem{
+    width: 60px;
+    size: 5%;
+    padding: 10px;
+    float: top;
+    color: white;
+}
 /*
         TASK BAR
 */
