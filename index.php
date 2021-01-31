@@ -1,3 +1,6 @@
+<?php
+    //placeholder
+?>
 <html>
     <head>
     <script src="functions.js"></script>
