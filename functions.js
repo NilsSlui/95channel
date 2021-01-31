@@ -1,7 +1,7 @@
 
 //  PROGRAM OBJECTS
 var debugconsole = {header: "Debug Console", content: "This is content"}; 
-var willekeurig = {header: "/b/ - Willekeurig", content: "placeholder"};
+var willekeurig = {header: "Window", content: "placeholder"};
 
 function runProgram(program){
     document.getElementById("Wcontrols").innerHTML = program.header;
