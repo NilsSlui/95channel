@@ -1,0 +1,58 @@
+<html>
+    <head>
+
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!-- DESKTOP -->
+        <div id="desktopcontainer">
+            <div class="desktopitems">
+                <div class="desktopitem">
+                    <img class="desktopitem" src="willekeurig.png">
+                    Willekeurig
+                </div>
+            </div>
+        </div>
+        <!-- START MENU -->
+        <div id="startmenucontainer" draggable="true">
+            <div id="startmenu">
+                <div id="startmenubanner"> 95channel <a class="whitet">3.1</a></div>
+                <div class="startmenuitemcontainer">
+                    <a onclick="toggleVisibility('window')">
+                        <script>
+                            for(i = 0;i<5;i++){
+                                document.getElementById("startmenuitemcontainer").innerHTML = "Hello JavaScript";
+                            }
+                        </script>
+                    </a>
+                </div>
+            </div>
+        </div>
+         <!-- PROGRAM WINDOW -->
+        <div id="window">
+            <div id="windowheader"><span id="Wcontrols">foo</span></span><img class="controlsImage" src="img/buttons.png" onclick="toggleVisibility('window')"></div>
+            <span id="Wcontent">bar</span>
+        </div>
+        <!-- TASK BAR -->
+        <div id="taskbarcontainer">
+            <div id="taskbar">
+                <!--START BUTTON -->
+                <div id="startbuttoncontainer">
+                    <div onclick="toggleVisibility('startmenucontainer')" id="startbutton">
+                        <div class="taskbartext"><img src="gnome.png">  Start</div>
+                    </div>
+                </div>
+                <!-- ACTIVITY WINDOW -->
+                <div id="activitywindow">
+                    <div class="taskbartext">19:84</div>
+                </div>
+            </div>
+        </div>
+        <script src="functions.js"></script>
+    </body>
+</html>
+
+<script>
+</script>
