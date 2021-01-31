@@ -1,5 +1,5 @@
 <?php
-    //placeholder
+    $placeholder = 'placeholder';
 ?>
 <html>
     <head>
